@@ -1,0 +1,693 @@
+@font-face {
+   font-family: 'Open Sans';
+   src: url('./fonts/OpenSans-Bold.eot');
+   src: url('./fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+   url('./fonts/OpenSans-Bold.woff2') format('woff2'),
+   url('./fonts/OpenSans-Bold.woff') format('woff'),
+   url('./fonts/OpenSans-Bold.ttf') format('truetype'),
+   url('./fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+   font-weight: bold;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Open Sans';
+   src: url('./fonts/OpenSans-Regular.eot');
+   src: url('./fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+   url('./fonts/OpenSans-Regular.woff2') format('woff2'),
+   url('./fonts/OpenSans-Regular.woff') format('woff'),
+   url('./fonts/OpenSans-Regular.ttf') format('truetype'),
+   url('./fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+body{
+    font-family: 'Open Sans';
+    /*min-width: 1920px;*/
+        width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background-image: url(./img/fon_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+@media (max-width: 640px){
+    .banner{
+        font-size: 4.8px;
+    }
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .banner{
+        font-size: 12px;
+    }
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .banner{
+        font-size: 16px;
+    }
+}
+header{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 0.7%;
+}
+.logo{
+    width: 10%;
+    margin-bottom: 13.2%;
+    margin-right: 1.7%;
+}
+@media (max-width: 640px){
+    .logo{
+        width: 41vw;
+        font-size: 21vw;
+        margin: -1.5% 2% 33% 0%; 
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .logo{
+        width: 27vw;
+        margin-bottom: 16.9%;
+        margin-left: 0.6%;
+        font-size: 11vw;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .logo{
+        margin-top: 1.7%;
+}
+}
+.be_recruited{
+    width: 89%;
+    text-align: left;
+    font-size: 6.2em;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    box-sizing: border-box;
+    -moz-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+    -webkit-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+    -ms-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+}
+ @media (max-width: 640px){
+    .be_recruited{
+        width: 97%;
+        letter-spacing: 0.07em;
+        margin-bottom: 0.6%;
+} 
+} 
+@media (min-width: 641px) and (max-width: 960px){
+    .be_recruited{
+        width: 86%;
+        font-size: 5.9em;
+        letter-spacing: 0.046em;
+} 
+} 
+@media (min-width: 961px) and (max-width: 1920px){
+    .be_recruited{
+        width: 89%;
+        letter-spacing: 0.05em;
+} 
+} 
+.play_college_sports{
+    width: 80%;
+    text-align: right;
+    font-size: 5.7em;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 0.035em;
+    word-spacing: 0.05em;
+    margin-bottom: 10%;
+    margin-top: -2%;
+}
+@media (max-width: 640px){
+    .play_college_sports{
+        display:none;
+  }
+    .play_college_1{
+        font-size: 5.7em;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        letter-spacing: 0.06em;
+        margin: 3% 0 -2% 8%;
+}
+    .sports_1{
+        width: 66%;
+        text-align: left;
+        font-size: 5.7em;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        letter-spacing: 0.07em;
+        margin: 1% 0 25% 6%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .play_college_sports{
+        display:none;
+  } 
+    .play_college_1{
+        font-size: 5.3em;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        letter-spacing: 0.055em;
+        margin: -1.8% 0 0 15%;
+}
+    .sports_1{
+        width: 50%;
+        text-align: left;
+        font-size: 5.3em;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        letter-spacing: 0.056em;
+        margin-top: -1.5%;
+        margin-bottom: 38.5%;
+  }
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .play_college_sports{
+        margin-bottom: 10.2%;
+  }
+    .play_college_1{
+        display:none;
+  }
+    .sports_1{
+        display:none;
+}
+}
+    
+.rectangle{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    height: auto;
+    margin-right: 0.5%;
+    margin-bottom: 6%;
+} 
+@media (max-width: 640px){
+    .rectangle{
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 16px;
+        width: 88%;
+        margin-right: 0;
+        margin-bottom: 21%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .rectangle{
+        width:84%;
+        margin-bottom: 11.8%;
+}   
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .rectangle{
+        margin-bottom: 5.65%;
+}   
+}
+.clic{
+    display: flex;
+    border-radius: 2.5rem;
+    background-color: rgb(94, 66, 176);
+    box-shadow: 0px 16px 24px 0px rgba(10, 14, 52, 0.004);
+    width: 36%;
+    height: auto;;
+}
+@media (max-width: 640px){
+    .clic{
+        width: 100%;
+        padding: 1.2% 0 0.7% 0;
+        margin-top: 0.1%;
+        margin-bottom: 5.2%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .clic{
+        width: 38%; 
+        padding: 1.8% 5% 1.5% 5%;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .clic{
+        padding: 1.3% 5% 1.3% 5%;
+}
+}
+.clic:hover {
+    background-color: #8a65f5;
+}
+.icon_1{
+    fill: #ffffff;
+    width: 20%;
+    margin-left: 1.6%;
+}
+@media (max-width: 640px){
+    .icon_1{
+        width: 8.4%;
+        margin-left: 29%;
+        margin-right: 2%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .icon_1{
+        width: 18%;
+        margin-top: 1%;
+        margin-left: 1.6%;
+}
+}
+.icon_2{
+    fill: #ffffff;
+    width: 21%;
+    margin-left: 8%;
+}
+@media (max-width: 640px){
+    .icon_2{
+        width: 9%;
+        margin-left: 29%;
+        margin-right: 2%;
+        margin-top: 1%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .icon_2{
+        width: 19%;
+        margin-left: 10%;
+        margin-top: 2%;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .icon_2{
+        width: 20%;
+        margin-top: 3%;
+}
+}
+.clic a{
+    text-decoration: none; 
+    margin-left: 8.2%;
+    margin-top: 4.5%;
+}
+@media (max-width: 640px){
+    .clic a{
+        line-height: 0.7;
+        margin-left:0;
+        margin-top: 0.5%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .clic a{
+        margin-top: 4%;
+}
+}
+.download_on_the{
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    word-spacing: -0.1rem;
+}
+@media (max-width: 640px){
+    .download_on_the{
+        font-size: 0.5em;
+        letter-spacing: 0.07em;
+        word-spacing: -0.1em;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .download_on_the{
+        letter-spacing: 0.04em;
+}
+}
+.app_store{
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left; 
+    letter-spacing: 0.05rem;
+}
+@media (max-width: 640px){
+    .app_store{
+        font-size: 0.5em;
+        letter-spacing: 0.08em;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .app_store{
+       line-height: 0.1rem;
+}
+}
+.get_it_on{
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0.05rem;
+}
+@media (max-width: 640px){
+    .get_it_on{
+        font-size: 0.5em;
+        letter-spacing: 0.07em;
+        word-spacing: -0.1em;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .get_it_on{
+        word-spacing: -0.09rem;
+        margin-left: 5%;
+}
+}
+.google_play{
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    /*text-align: left;*/
+    letter-spacing: 0.05rem;
+}
+@media (max-width: 640px){
+    .google_play{
+        font-size: 0.5em;
+        letter-spacing: 0.08em;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .google_play{
+    line-height: 1;
+}
+}
+
+
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+.connection_block, .collaboration_block, .growth_block{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height:auto;
+}
+.collaboration_block{
+    background-color: #f6f4fa; 
+}
+.growth_block{
+    background-color: #5e42b0;
+}
+@media (max-width: 640px){
+    .athlets{
+        width: 100%;
+        margin: 2% 4.5% 11% 6%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .athlets{
+        width: 57.5%;
+        margin-top: 8%;
+        margin-right: 4.5%;
+        margin-bottom: 4%;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .athlets{
+        width: 43%;
+        margin-top: 4.5%;
+        margin-right: 4.5%;
+        margin-bottom: 2.1%;
+}
+}
+@media (max-width: 640px){
+    .collaboration{
+        width: 100%;
+        margin: 9% 4.5% 11% 6%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .collaboration{
+        width: 57.5%;
+        margin-top: 1.4%;
+        margin-right: 4.5%;
+        margin-bottom: 2.8%;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .collaboration{
+        width: 43%;
+        margin-top: -0.5%;
+        margin-right: 4.5%;
+        margin-bottom: 2.1%;
+}
+}
+@media (max-width: 640px){
+    .growth{
+        width: 100%;
+        margin: 8.8% 4.5% 5.6% 6%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .growth{
+        width: 57.5%;
+        margin-top: 1%;
+        margin-right: 4.5%;
+        margin-bottom: 6%;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .growth{
+        width: 43%;
+        margin-top: 1%;
+        margin-right: 4.5%;
+        margin-bottom: 4.15%;  
+}
+}
+ .athlets_players {
+    font-size: 5.1rem;
+    color: rgb(231, 231, 231);
+    font-weight: bold;
+    margin-left: -0.5%;
+    -moz-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+    -webkit-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+    -ms-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);    
+}
+@media (max-width: 640px){
+    .athlets_players{
+        font-size: 3rem;
+        line-height: 1.5;
+        letter-spacing: 0.12rem;
+}
+}
+.wrapper_subgect{
+    display: flex;
+    position: relative;
+}
+@media (max-width: 640px){
+    .athlets .wrapper_subgect{
+        margin-top: 97.3%;
+}
+}
+.number {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@media (max-width: 640px){
+    .number{
+        margin-top: 9%;
+        font-size: 0.9rem
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .number {
+        font-size: 1.2rem;
+        margin-top: 5.6%;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .number {
+        font-size: 1.2rem;
+        margin-top: 8%;
+}
+}
+.number:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 2px;
+    background-color: rgb(94, 66, 176);
+    width: 1.2rem;
+    height: 0.3rem;
+}
+.number_3 {
+    position: absolute;
+    color: rgb(10, 14, 52);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@media (max-width: 640px){
+    .number_3{
+        margin-top: 9%;
+        font-size: 0.9rem
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .number_3 {
+        font-size: 1.1rem;
+        margin-top: 6%;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .number_3 {
+        font-size: 1.2rem;
+        margin-top: 8%;
+}
+}
+.number_3:after {
+   position: absolute;
+    content: "";
+    display: block;
+    border-radius: 2px;
+    background-color: rgb(239, 239, 239);
+    width: 1.1rem;
+    height: 0.3rem;
+    margin-top:10%;
+}
+h3{
+    color: rgb(193, 193, 193);
+    text-transform: uppercase;
+}
+@media (max-width: 640px){
+    h3{
+        font-size: 1.7rem;
+        letter-spacing: 0.12rem;
+        margin-top: 7.1%;
+        margin-bottom: 5%;
+        margin-left: 9%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    h3{
+        font-size: 1.8rem;
+        letter-spacing: 0.22rem;
+        margin-left: 7.2%;
+        margin-top: 5.8%;
+        margin-bottom: 0;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    h3{
+        font-size: 2.2rem;
+        letter-spacing: 0.14rem;
+        margin-left: 4%;
+        margin-top: 7.1%;
+        margin-bottom: 5%;
+}
+}
+p {
+    /*font-size: 1.23rem;
+    line-height:;
+    text-align: left;*/
+} 
+.athlets p, .collaboration p, .growth p{
+    color: rgb(0, 0, 0);
+}
+@media (max-width: 640px){
+    .athlets p{
+        font-size: 0.9rem;
+        letter-spacing: 0.068rem;
+        margin-top: 0.7%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .athlets p{
+        font-size: 1rem;
+        letter-spacing: 0.05rem;
+        margin-top: 5%;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .athlets p{
+        font-size: 1.23rem;
+        letter-spacing: 0.073rem;
+        margin-top: -3.2%;
+}
+}
+@media (max-width: 640px){
+    .collaboration p{
+        font-size: 0.9rem;
+        letter-spacing: 0.067rem;
+        margin-top: 0%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .collaboration p{
+        font-size: 0.96rem;
+        letter-spacing: 0.067rem;
+        line-height: 1.8;
+        margin-top: 3.8%;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .collaboration p{
+        font-size: 1.23rem;
+        letter-spacing: 0.07rem;
+        margin-top: -2.7%;
+        margin-right: 14%;
+}
+}
+@media (max-width: 640px){
+    .growth p{
+        font-size: 0.9rem;
+        letter-spacing: 0.07rem;
+        margin-top: 0%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .growth p{
+        font-size: 0.96rem;
+        letter-spacing: 0.065rem;
+        line-height: 1.8;
+        margin-top: 4.3%;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+    .growth p{
+        font-size: 1.23rem;
+        letter-spacing: 0.07rem;
+        margin-top: -3%;
+        margin-right: 20%;
+}
+}
+.images_footballer {
+     position: absolute; 
+}
+@media (max-width: 640px){
+    .images_footballer{
+        width: 53%;
+        height:100%;
+        top: 8%;
+        left:22%;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .images_footballer{
+        width: 53%;
+        height:100%;
+        top: 11.8%;
+        left:-21%;
+}
+}
+@media (min-width: 961px) and (max-width: 1920px){
+.images_footballer {
+    left: 16.6%;
+    top: -1.2%;
+}
+}
