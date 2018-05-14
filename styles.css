@@ -191,7 +191,7 @@ header{
 }
 @media (min-width: 641px) and (max-width: 960px){
     .rectangle{
-        margin-bottom: 11%;
+        margin-bottom: 12.2%;
 }   
 }
 @media (min-width: 961px){
@@ -217,24 +217,16 @@ header{
 }
 @media (min-width: 641px) and (max-width: 960px){
     .clic_1{
-        margin-left: 7.5%;
-        margin-right: %;
-        max-width: 40.5%;
-}
-    .clic_2{
-        margin-left: 4%;
-        margin-right: 7.4%;
-        max-width: 40.5%;
-}
-}
-@media (min-width: 961px){
-    .clic_1{
-        margin-right: 25px;
-        /*max-width: 37.5%;*/
+    }
 }
     .clic_2{
         margin-left: 32px;
         /*max-width: 37.5%;*/
+}
+}
+@media (min-width: 961px){
+    .clic_1{
+margin-right: 18px;
 }
 }
 .clic_1:hover, .clic_2:hover {
@@ -254,11 +246,24 @@ header{
 }
 @media (min-width: 641px) and (max-width: 960px){
     a.apple, a.google{
-        margin-top: 4%;
 }
 }
 @media (min-width: 961px){
     a .apple, a .google{
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .clic{
+        margin-top: 15px;
+        margin-bottom: 11px;
+        margin-right: 7.5%;
+        margin-left: 12%;
+}
+    .google .clic{
+        margin-top: 15px;
+        margin-bottom: 11px;
+        margin-right: 8%;
+        margin-left: 17.5%;
 }
 }
 @media (min-width: 961px){
@@ -279,8 +284,8 @@ header{
 }
 @media (min-width: 641px) and (max-width: 960px){
     .icon_1{
-        width: 14%;
-        margin: 1% 6.8% 0 12.1%;
+       width: 43px;
+       /*margin: 1% 6.8% 0 85%;*/
 }
 }
 @media (min-width: 961px){
@@ -298,16 +303,22 @@ header{
 }
 @media (min-width: 641px) and (max-width: 960px){
     .icon_2{
-        width: 15%;
-        margin: 1.6% 7% 0 17.3%;
+        width: 45px;
 }
 }
 @media (min-width: 961px){
     .icon_2{
         width: 46px;
         margin-right: 26px;
-        margin-left: 45px;
+        margin-left: 55px;
         margin-top: 6px;
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .box_apple{
+        display: flex;
+        flex-direction: column;
+        width: 265px;  
 }
 }
 @media (min-width: 961px){
@@ -315,6 +326,13 @@ header{
         display: flex;
         flex-direction: column;
         width: 206px;  
+}
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .box_google{
+        display: flex;
+        flex-direction: column;
+        width: 265px;  
 }
 }
 @media (min-width: 961px){
@@ -337,7 +355,7 @@ header{
 }
 @media (min-width: 641px) and (max-width: 960px){
     .download_on_the{
-        font-size: 0.95rem;
+        font-size: 0.9rem;
 }   
 }
 @media (min-width: 961px){
@@ -362,7 +380,7 @@ header{
 @media (min-width: 641px) and (max-width: 960px){
     .app_store{
         font-size: 0.83rem;
-        margin-left: 34%;
+        letter-spacing: 0.05rem;
 }
 }
 @media (min-width: 961px){
@@ -412,12 +430,11 @@ header{
         line-height: 1;
         font-size: 0.83rem;
         letter-spacing: 0.05rem;
-        margin-left: 40%;
 }
 }
 @media (min-width: 961px){
     .google_play{
-   font-size: 0.85rem;
+        font-size: 0.85rem;
         letter-spacing: 0.055rem;
 }
 }
@@ -429,6 +446,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    overflow: hidden;
     width: 100%;
 }
 
@@ -468,6 +486,7 @@ header{
 @media (min-width: 641px) and (max-width: 960px){
     .rectangle_athlets{
         margin-left: 38%;
+        margin-bottom: 4.5%;
 }
 }
 @media (min-width: 961px){
@@ -484,7 +503,7 @@ header{
 @media (min-width: 641px) and (max-width: 960px){
     .rectangle_collaboration{
         margin-left: 38%;
-        margin-bottom: 2.5%;
+        margin-bottom: 2.2%;
 }
 }
 @media (min-width: 961px){
@@ -526,9 +545,9 @@ header{
 }
 @media (min-width: 641px) and (max-width: 960px){
     h2.athlets_players {
-        font-size: 5.2rem;
+        font-size: 5.3rem;
         letter-spacing: 0.16rem;
-        margin-top: 12%;
+        margin-top: 11.5%;
         margin-left: -5%;
         margin-bottom: 0;
 }
@@ -557,6 +576,13 @@ header{
     font-weight: bold;
     text-transform: uppercase;
 }
+.number:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 2px;
+    background-color: rgb(94, 66, 176);
+}
 @media (max-width: 640px){
     .rectangle_athlets .number{
         font-size: 0.85rem;
@@ -568,6 +594,10 @@ header{
     .rectangle_athlets .number {
         font-size: 1.2rem;
         margin-top: 5.6%;
+}
+        .rectangle_athlets .number:after {
+        width: 1.2rem;
+        height: 0.3rem;
 }
 }
 @media (min-width: 961px){
@@ -590,7 +620,11 @@ header{
 @media (min-width: 641px) and (max-width: 960px){
     .rectangle_collaboration .number {
         font-size: 1.2rem;
-        margin-top: 14%;
+        margin-top: 7%;
+}
+.rectangle_collaboration .number:after {
+        width: 1.4rem;
+        height: 0.3rem;
 }
 }
 @media (min-width: 961px){
@@ -603,13 +637,6 @@ header{
         width: 1.4rem;
         height: 0.3rem;
 }
-}
-.number:after {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 2px;
-    background-color: rgb(94, 66, 176);
 }
 .number_3 {
     position: absolute;
@@ -662,9 +689,9 @@ h3{
 @media (min-width: 641px) and (max-width: 960px){
     .athlets h3{
         font-size: 1.8rem;
-        letter-spacing: 0.22rem;
-        margin-left: 7.2%;
-        margin-top: 5.8%;
+        letter-spacing: 0.24rem;
+        margin-left: 6.5%;
+        margin-top: 5.6%;
         margin-bottom: 0;
 }
 }
@@ -688,10 +715,10 @@ h3{
 }
 @media (min-width: 641px) and (max-width: 960px){
     .collaboration h3{
-        font-size: 1.8rem;
-        letter-spacing: 0.23rem;
-        margin-left: 6.5%;
-        margin-top: 14%;
+        font-size: 1.85rem;
+        letter-spacing: 0.2rem;
+        margin-left: 6.4%;
+        margin-top: 7%;
         margin-bottom: 0;
 }
 }
@@ -829,8 +856,6 @@ h3{
 }
 
 
-
-
 .connection_2_block, .collaboration_2_block, .growth_2_block{
     width: 100%;
     height:auto;
@@ -846,7 +871,7 @@ h3{
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
+     height: auto;
 }
 @media (min-width: 961px){
     .players, .collaboration_2, .growth_2{
@@ -924,10 +949,9 @@ h3{
 }
 @media (min-width: 641px) and (max-width: 960px){
     h2.athlets_players_2 {
-        font-size: 5.2rem;
-        letter-spacing: 0.16rem;
-        margin-top: 12%;
-        margin-left: -5%;
+        font-size: 5.6rem;
+        margin-top: 10.7%;
+        margin-left: 0.5%;
         margin-bottom: 0;
 }
 }
@@ -1057,10 +1081,10 @@ h3{
 }
 @media (min-width: 641px) and (max-width: 960px){
     .collaboration_2 h3{
-        font-size: 1.8rem;
-        letter-spacing: 0.22rem;
-        margin-left: 7.2%;
-        margin-top: 5.8%;
+        font-size: 1.85rem;
+        letter-spacing: 0.2rem;
+        margin-left: 6.4%;
+        margin-top: 7%;
         margin-bottom: 0;
 }
 }
@@ -1228,6 +1252,11 @@ h3{
     padding: 0;
     margin: 0
 } 
+@media (min-width: 641px) and (max-width: 960px){
+    .be_active{
+        flex-direction: column;
+}
+}
         .images_be_active{
      /* position: absolute;
       left: 0;*/
@@ -1237,10 +1266,17 @@ h3{
        width: 50%;
         height: 730px;
 }
+@media (min-width: 641px) and (max-width: 960px){
+    .images_be_active{
+        background-image: url(./img/be_active_768.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 585px;
+}
+}
 @media (min-width: 961px){
     .images_be_active{
-       /* position: absolute;
-        left: 0;*/
         background-image: url(./img/be_active_desktop.png);
         background-size: cover;
         background-repeat: no-repeat;
@@ -1257,15 +1293,20 @@ h3{
         max-width: 780px;
        /* margin-bottom: 17.3%;*/
 }
+@media (min-width: 641px) and (max-width: 960px){
+    .rectangle_be_active{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+}
+}
 @media (min-width: 961px){
     .rectangle_be_active{
         position: relative;
         display: flex;
         flex-direction: column;
-        /*margin-left: auto;
-        margin-right: auto;*/
         max-width: 780px;
-       /* margin-bottom: 17.3%;*/
 }
 } 
         .be_active h2{
@@ -1279,6 +1320,20 @@ h3{
         -moz-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
         -webkit-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
         -ms-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+}
+@media (min-width: 641px) and (max-width: 960px){
+    .be_active h2{
+        font-size: 5.5rem;
+        font-family: "Open Sans";
+        color: rgba(193, 193, 193, 0.4);
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 29%;
+        margin-left: 11.6%;
+        -moz-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+        -webkit-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+        -ms-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+}
 }
 @media (min-width: 961px){
     .be_active h2{
@@ -1294,13 +1349,7 @@ h3{
         -ms-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
 }
 }
-        /*.rectangle_be_active p{
-        font-size: 1.45rem;
-        letter-spacing: 0.1rem;
-        margin-top: 0.6%;
-        margin-right: 17%;
-        margin-left: 58.1%;
-}*/
+ 
 @media (min-width: 961px){
     .rectangle_be_active p{
         font-size: 1.45rem;
@@ -1372,10 +1421,16 @@ h3{
         background-image: url(./img/find_contact_1_desktop.png);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 50%;
+       /* width: 50%;*/
         height: 730px;
 }
-}   
+}
+@media (min-width: 961px){
+    .wrapper_find_contact{
+        width: 50%;
+        max-width: 50%;
+}
+}
 .rectangle_find_contact{
     position: relative;
     display: flex;
@@ -1387,8 +1442,8 @@ h3{
         position: relative;
         display: flex;
         flex-direction: column;
-        width: 780px;
-        max-width:50%; 
+        margin-left: 16%;
+        /*max-width: 780px;*/ 
 }
 } 
 .find_contact h2{
@@ -1410,7 +1465,7 @@ h3{
         font-weight: bold;
         text-transform: uppercase;
         margin-top: 29%;
-        /*margin-left: 11.6%;*/
+        /*margin-left: 16%;*/
         -moz-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
         -webkit-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
         -ms-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
@@ -1420,9 +1475,9 @@ h3{
     .rectangle_find_contact p{
         font-size: 1.45rem;
         letter-spacing: 0.1rem;
-        margin-top: 1%;
-        margin-right: 33%;
-        margin-left: 16.2%;
+         margin-top: -4%;
+        margin-right: 38%;
+        margin-left: 4.5%;
 }
 } 
         .square_find_contact{
@@ -1441,8 +1496,8 @@ h3{
         background-color: rgb(94, 66, 176);
         width: 10.5rem;
         height: 9.7rem;
-        top: 28.6%;
-        left: -10.8%;                 
+       top: 44%;
+       left: 92.6%;                
 }
 }
 .number_square_find_contact{
@@ -1540,8 +1595,8 @@ h3{
     .rectangle_workt_it p{
         font-size: 1.45rem;
         letter-spacing: 0.1rem;
-        margin-top: 1%;
-        margin-right: 33%;
+        margin-top: -0.2%;
+        margin-right: 9%;
         margin-left: 16.2%;
 }
 } 
@@ -1585,3 +1640,135 @@ h3{
     margin-top: 15%;
     margin-left: 9%;
 }
+  
+    
+footer{
+    background-image: url(./img/footer-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1560px;
+}
+.container_artwork{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   /* width: 100%;
+    height: auto;*/
+    box-sizing: border-box;
+    margin-top: 14.5%;
+    margin-bottom: 10%;
+    margin-left: -2%;
+    padding: 0;
+}
+@media (min-width: 961px){
+    .container_artwork{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+    margin-top: 14.5%;
+    margin-bottom: 10%;
+    margin-left: 0.1%;
+    padding: 0;
+}
+}
+.artwork{
+    width: 130px; 
+    border-radius: 2rem;
+    background-color: rgb(94, 66, 176);
+    box-shadow: 0px 16px 24px 0px rgba(10, 14, 52, 0.004);
+   /* margin-right: 1%;*/
+}
+@media (min-width: 961px){
+    .artwork{
+        width: 130px; 
+        border-radius: 2rem;
+        background-color: rgb(94, 66, 176);
+        box-shadow: 0px 16px 24px 0px rgba(10, 14, 52, 0.004);
+        /* margin-right: 1%;*/
+}
+}
+.artwork_a{
+    text-decoration: none; 
+   /* margin-left: 0.5%;*/
+}
+.aicon_artvork{
+    width: 96px;
+    height: auto;
+    margin: 15.5% 0% 15.5% 10%;
+}
+@media (min-width: 961px){
+    .aicon_artvork{
+        width: 96px;
+        height: auto;
+        margin: 15.5% 0% 15.5% 14%;
+}
+}
+    .tex{
+        display: flex;
+        flex-direction: column;
+}
+ .download_app{
+    font-size: 5.3rem;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    line-height: 1;
+    -moz-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+    -webkit-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+    -ms-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+}
+@media (min-width: 961px){
+    .download_app{
+        font-size: 5.3rem;
+        font-family: "Open Sans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.4rem;
+        line-height: 1;
+        -moz-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+        -webkit-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+        -ms-transform: matrix( 0.90802474337351,0,0,0.90802474337351,0,0);
+}
+}
+.show_everyone{
+    font-size: 30px;
+    font-family: "OpenSans";
+    color: rgb(164, 150, 202);
+    text-transform: uppercase;
+        margin-left: 5%;
+}
+@media (min-width: 961px){
+    .show_everyone{
+        font-size: 30px;
+        font-family: "OpenSans";
+        color: rgb(164, 150, 202);
+        text-transform: uppercase;
+        margin-left: 5%;
+}
+}
+footer .logo{
+    margin-top: 9.8%;
+    margin-bottom: 3%;
+    margin-right: 1.7%;
+}
+@media (min-width: 961px){
+    footer .logo{
+        margin-top: 9.8%;
+        margin-bottom: 3%;
+        margin-right: 1.7%;
+}
+}
+    
