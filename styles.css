@@ -53,37 +53,34 @@ body{
 header{
     display: flex;  
     flex-direction: column;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    max-width: 100%;
 }
 @media (min-width: 961px){
     header{
-        max-width: 1560px;
+         max-width: 1710px;;
 }
 }
 @media (max-width: 640px){
     .banner .logo{
         width: 41vw;
         font-size: 21vw;
-        margin: -0.8% 2% 33% 0%; 
+        margin: -1% 0% 33.1% 28%; 
 }
 }
 @media (min-width: 641px) and (max-width: 960px){
     .banner .logo{
         width: 27vw;
-        font-size: 11vw;
-        margin: 0.7% 1.7% 17% 0.6%;
+        margin: 5.1% 1.7% 19.75% 36%;
 }
 }
 @media (min-width: 961px){
     .banner .logo{
         width: 10vw;
-        margin-top: 2.8%;
-        margin-right: 2.2%;
-        margin-bottom: 16.3%;
+        margin-top: 2.6%;
+        margin-bottom: 14.9%;
+        margin-left: 43.45%;
 }
 }
 .be_recruited{
@@ -95,24 +92,23 @@ header{
 }
  @media (max-width: 640px){
     .be_recruited{
-        font-size: 6.1em;
-        letter-spacing: 0.08em;
-        margin-bottom: 0.6%;
-        margin-left: -22%;
+        font-size: 6.3em;
+        letter-spacing: 0.065em;
+        margin-left: 1%;
 } 
 } 
 @media (min-width: 641px) and (max-width: 960px){
     .be_recruited{
-        font-size: 5.8em;
-        letter-spacing: 0.06em;
-        margin-right: 15%;
+      font-size: 5.8em;
+     letter-spacing: 0.25rem;
+     margin-left: 6.8%;
 } 
 } 
 @media (min-width: 961px){
     .be_recruited{
         font-size: 6.2em;
         letter-spacing: 0.05em;
-        margin-left: -55.5%;
+        margin-left: 0.08%;
 } 
 } 
 .play_college_sports{
@@ -124,19 +120,18 @@ header{
         display:none;
   }
     .play_college_1{
-        font-size: 5.7em;
+        font-size: 5.8em;
         color: rgb(255, 255, 255);
         font-weight: bold;
-        letter-spacing: 0.07em;
-        margin: 3% 0 -2% 8%;
+        letter-spacing: 0.055em;
+        margin: 3.5% 0 0 19.8%;
 }
     .sports_1{
-        width: 66%;
-        font-size: 5.7em;
+        font-size: 5.8em;
         color: rgb(255, 255, 255);
         font-weight: bold;
-        letter-spacing: 0.07em;
-        margin: 1.5% 0 23% 6%;
+        letter-spacing: 0.06em;
+        margin: -1.3% 0 23% 19.7%;
 }
 }
 @media (min-width: 641px) and (max-width: 960px){
@@ -148,25 +143,26 @@ header{
         color: rgb(255, 255, 255);
         font-weight: bold;
         letter-spacing: 0.053em;
-        margin: -1.6% 0 0 15%;
+        margin-left: 25.1%;
+        margin-top: -1.6%;
 }
     .sports_1{
         font-size: 5.3em;
         color: rgb(255, 255, 255);
         font-weight: bold;
-        letter-spacing: 0.047em;
+        letter-spacing: 0.22rem;
         margin-top: -1.2%;
-        margin-bottom: 38.2%;
-        margin-right: 16%;
+        margin-bottom: 38.3%;
+        margin-left: 25%;
 }
 }
 @media (min-width: 961px){
     .play_college_sports{
         font-size: 5.6em;
-        letter-spacing: 0.053em;
-        margin-top: -2.3%;
-        margin-bottom: 12.6%;
-        margin-left: 28.5%;
+        letter-spacing: 0.0525em;
+        margin-top: -2.2%;
+        margin-bottom: 11.55%;
+        margin-left: 31.1%;
   }
     .play_college_1{
         display:none;
@@ -178,24 +174,26 @@ header{
     
 .rectangle{
     display: flex;
-    justify-content: center;
 } 
 @media (max-width: 640px){
     .rectangle{
         flex-wrap: wrap;
+        justify-content: center;
         font-size: 16px;
-        max-width: 280px;
-        margin-bottom: 23.5%;
+        margin-bottom: 23.55%;
+        margin-left: auto;
+        margin-right: auto;%;
 }
 }
 @media (min-width: 641px) and (max-width: 960px){
     .rectangle{
-        margin-bottom: 12.2%;
+        justify-content: center;
+        margin-bottom: 12%;
 }   
 }
 @media (min-width: 961px){
     header .rectangle{
-        margin-bottom: 7.1%;
+        margin-bottom: 6.4%;
 }   
 }
 @media (max-width: 640px){
@@ -217,7 +215,7 @@ header{
 @media (max-width: 640px){
    header .button_1{
         width: 280px;
-        margin-bottom: 2.5%;
+        margin-bottom: 1.4%;
         margin-top: 2.5%;
 }
    header .button_2{
@@ -235,11 +233,9 @@ header{
 }
 @media (min-width: 961px){
    header .button_1{
-        margin-right: 6%;
+        margin-right: 2.9%;
+        margin-left: 30.23%;
 } 
-    header .button_2{
-        margin-left: 1%;
-}
 }
 .button_1:hover, .button_2:hover {
     background-color: #8a65f5;
@@ -693,9 +689,8 @@ header{
     display: block;
     border-radius: 2px;
     background-color: rgb(239, 239, 239);
-    width: 1rem;
+    width: 1.4rem;
     height: 0.3rem;
-    margin-top: 2.5%;
 }
 h3{
     color: rgb(193, 193, 193);
@@ -1037,9 +1032,9 @@ h3{
         margin-left: 12.7%;
 }
     .rectangle_players .number:after {
-        width: 1rem;
+        width: 1.4rem;
         height: 0.3rem;
-        margin-top: 5%;
+        margin-top: 7%;
         margin-left: 6%;
 }
 }
@@ -1071,11 +1066,10 @@ h3{
         margin-top: 4.92%;
         margin-left: 12.42%;
 }
-       .rectangle_collaboration_2 .number:after {
-        width: 1rem;
+    .rectangle_collaboration_2 .number:after {
+        width: 1.4rem;
         height: 0.3rem;
-        margin-top: 5%;
-        margin-left: 6%;
+        margin-top: 5.6%;
 }
 }
 @media (max-width: 640px){
@@ -1119,7 +1113,7 @@ h3{
 }
     .growth_2 .number_3:after{
         color: rgb(239, 239, 239);
-        width: 1rem;
+        width: 1.4rem;
         height: 0.3rem;
 }
 }
@@ -1345,10 +1339,10 @@ h3{
     
     
 .be_active{
-    display: flex;
-    width: 100%;
-    padding: 0;
-    margin: 0
+        display: flex;
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
 }
 @media (max-width: 640px){
     .be_active{
@@ -1367,21 +1361,21 @@ h3{
 }
 @media (max-width: 640px){
     .images_be_active{
-        background-image: url(./img/be_active_320.png);
+        background-image: url(./img/be_active_320.jpg);
         width: 100%;
         height: 351px;
 }
 }
 @media (min-width: 641px) and (max-width: 960px){
     .images_be_active{
-        background-image: url(./img/be_active_768.png);
+        background-image: url(./img/be_active_768.jpg);
         width: 100%;
         height: 585px;
 }
 }
 @media (min-width: 961px){
     .images_be_active{
-        background-image: url(./img/be_active_desktop.png);
+        background-image: url(./img/be_active_desktop.jpg);
         width: 50%;
 }
 }   
@@ -1404,9 +1398,9 @@ h3{
 }
 @media (min-width: 961px){
     .rectangle_be_active{
+        width: 50%;
         max-width: 780px;
-        margin-bottom: 9.6%;
-        margin-left: 6.6%;
+        margin-bottom: 10.2%;
 }
 } 
 .be_active h2{
@@ -1439,7 +1433,7 @@ h3{
     .be_active h2{
         font-size: 5.5rem;
         margin-top: 29%;
-        margin-left: -5.5%;
+        margin-left: 11.4%;
 }
 }
 @media (max-width: 640px){
@@ -1460,10 +1454,11 @@ h3{
 }
 @media (min-width: 961px){
     .rectangle_be_active p{
-        font-size: 1.45rem;
-        letter-spacing: 0.09rem;
-        margin-right: 50%;
-        margin-top: 1%;
+        font-size: 1.3rem;
+        letter-spacing: 0.17rem;
+        margin-top: 1.5%;
+        margin-right: 34%;
+        margin-left: 16.2%;
 }
 } 
 .square_be_active{
@@ -1491,8 +1486,8 @@ h3{
     .square_be_active{
         width: 10.5rem;
         height: 9.7rem;
-        top: 38.3%;
-        left: -27%;                 
+        top: 39.5%;
+        left: -10.8%;                 
 }
 }
 .number_square_be_active{
@@ -1534,10 +1529,10 @@ h3{
     
     
 .find_contact{
-    display: flex;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+        display: flex;
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
 } 
 @media (max-width: 640px){
     .find_contact{
@@ -1560,7 +1555,7 @@ h3{
 }
 @media (max-width: 640px){
    .images_find_contact{
-        background-image: url(./img/find_contact_320.png);
+        background-image: url(./img/find_contact_320.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -1569,7 +1564,7 @@ h3{
 }
  @media (min-width: 641px) and (max-width: 960px){
      .images_find_contact{
-        background-image: url(./img/find_contact_768.png);
+        background-image: url(./img/find_contact_768.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -1578,10 +1573,10 @@ h3{
 }
 @media (min-width: 961px){
     .wrapper_images_find_contact{
-       width: 50%; 
+        width: 50%;
 }
     .images_find_contact{
-        background-image: url(./img/find_contact_2_desktop.png);
+        background-image: url(./img/find_contact_desktop.jpg);
         height: 100%;
         background-position: -360px -70px;
 }
@@ -1608,8 +1603,9 @@ h3{
 }
 @media (min-width: 961px){
     .rectangle_find_contact{
-       width: 50%;
-        margin-bottom: 13%;
+        width: 50%;
+        max-width: 810px;
+        margin-bottom: 13.5%;     
 }
 } 
 .find_contact h2{
@@ -1640,8 +1636,8 @@ h3{
 @media (min-width: 961px){
     .find_contact h2{
         font-size: 5.5rem;
-        margin-top: 24%;
-        margin-left: 15.5%;
+        margin-top: 28%;
+ 
 }
 }
 @media (max-width: 640px){
@@ -1660,11 +1656,11 @@ h3{
 }
 @media (min-width: 961px){
     .rectangle_find_contact p{
-        font-size: 1.45rem;
-        letter-spacing: 0.1rem;
-        margin-top: -3.5%;
-        margin-right: 34%;
-        margin-left: 20%;
+        font-size: 1.38rem;
+        letter-spacing: 0.13rem;
+        margin-top: -4%;
+        margin-right: 40%;
+        margin-left: 5%;
 }
 } 
 .square_find_contact{
@@ -1690,8 +1686,8 @@ h3{
     .square_find_contact{
         width: 10.5rem;
         height: 9.7rem;
-        top: 44%;
-        left: 91.3%;                
+        top: 44.7%;
+        left: 89.6%;                
 }
 }
 .number_square_find_contact{
@@ -1733,10 +1729,10 @@ h3{
 
 
 .workt_it{
-    display: flex;
-    width: 100%;
-    padding: 0;
-    margin: 0
+        display: flex;
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
 } 
 @media (max-width: 640px){
     .workt_it{
@@ -1748,29 +1744,26 @@ h3{
         flex-direction: column;
 }
 }
-.images_workt_it{
-    background-image: url(./img/work_it_desktop.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 @media (max-width: 640px){
  .images_workt_it{
-        background-image: url(./img/work_it_320.png);
+        background-image: url(./img/work_it_320.jpg);
         width: 100%;
         height: 351px;
 }
 }
  @media (min-width: 641px) and (max-width: 960px){
      .images_workt_it{
-        background-image: url(./img/work_it_768.png);
+        background-image: url(./img/work_it_768.jpg);
         width: 100%;
         height: 585px;
 }
 }
 @media (min-width: 961px){
     .images_workt_it{
-        background-image: url(./img/work_it_desktop.png);
+        background-image: url(./img/work_it_desktop.jpg);
         width: 50%;
+        background-position: -12px -5px;
+        background-repeat: no-repeat;
 }
 }   
 .rectangle_workt_it{
@@ -1794,8 +1787,9 @@ h3{
 }
 @media (min-width: 961px){
     .rectangle_workt_it{
+        width: 50%;
         max-width: 780px;
-        margin-bottom: 9.8%;
+        margin-bottom: 10.1%;
 }
 } 
 .workt_it h2{
@@ -1828,7 +1822,7 @@ h3{
     .workt_it h2{
         font-size: 5.5rem;
         margin-top: 29.5%;
-        margin-left: 12.1%;
+        margin-left: 12.2%;
 }
 }
 @media (max-width: 640px){
@@ -1848,9 +1842,9 @@ h3{
 }
 @media (min-width: 961px){
     .rectangle_workt_it p{
-        font-size: 1.45rem;
-        letter-spacing: 0.1rem;
-        margin-top: -0.2%;
+        font-size: 1.38rem;
+        letter-spacing: 0.13rem;
+        margin-top: -0.05%;
         margin-right: 9%;
         margin-left: 16.2%;
 }
@@ -1879,8 +1873,8 @@ h3{
     .square_workt_it{
         width: 10.5rem;
         height: 9.7rem;
-        top: 39.2%;
-        left: -10.8%;                 
+        top: 39.9%;
+        left: -10.8%;               
 }
 }
 .number_square_workt_it{
@@ -1918,7 +1912,6 @@ h3{
         margin-left: 2%;
 }
 }
-  
 
 
     
@@ -1958,7 +1951,7 @@ h3{
         display: flex;
         justify-content: center;
         margin-top: 11.5%;
-        margin-bottom: 7%;
+        margin-bottom: 6.85%;
         margin-left: 0.1%;
         padding: 0;
 }
@@ -2021,7 +2014,7 @@ h3{
 @media (max-width: 640px){
    .footer .tex{
         margin-left: auto;
-        margin-top: auto;
+        margin-right: auto;
 }
 }
 .footer .download_app{
@@ -2129,11 +2122,9 @@ h3{
 }
 @media (min-width: 961px){
     .footer .button_1{
-        margin-right: 2%;
+        margin-right: 2.6%;
+        margin-left: 32.4%;
 } 
-    .footer .button_2{
-        margin-left: 1%;
-}
 }
 @media (max-width: 640px){
    .footer a{
